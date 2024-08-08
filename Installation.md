@@ -20,6 +20,7 @@
 
 #Using powershell to automate the verification
 ```sh
+  $(Get-FileHash -Algorithm SHA256 .\kubectl.exe).Hash -eq $(Get-Content .\kubectl.exe.sha256)
 ```
 
 
