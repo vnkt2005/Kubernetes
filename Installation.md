@@ -26,5 +26,6 @@
 #Check the version
 ```sh
   kubectl version --client
+  kubectl version --client --output=yaml
 ```
 
