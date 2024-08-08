@@ -40,6 +40,14 @@
   cd e:\minikube
 ```
 
+#powershell run as administrator
+```sh
+  $oldPath = [Environment]::GetEnvironmentVariable('Path', [EnvironmentVariableTarget]::Machine)
+if ($oldPath.Split(';') -inotcontains 'E:\minikube'){
+  [Environment]::SetEnvironmentVariable('Path', $('{0};E:\minikube' -f $oldPath), [EnvironmentVariableTarget]::Machine)
+}
+```
+
 
 
 
