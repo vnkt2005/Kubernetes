@@ -23,4 +23,8 @@
   $(Get-FileHash -Algorithm SHA256 .\kubectl.exe).Hash -eq $(Get-Content .\kubectl.exe.sha256)
 ```
 
+#Check the version
+```sh
+  kubectl version --client
+```
 
