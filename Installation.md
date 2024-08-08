@@ -10,3 +10,7 @@
   cd kubectl
   curl.exe -LO "https://dl.k8s.io/release/v1.30.0/bin/windows/amd64/kubectl.exe"
 ```
+
+#Validate the binary
+```sh
+```
