@@ -14,4 +14,6 @@
 #Validate the binary
 ```sh
   curl.exe -LO "https://dl.k8s.io/v1.30.0/bin/windows/amd64/kubectl.exe.sha256"
+  CertUtil -hashfile kubectl.exe SHA256
+  type kubectl.exe.sha256
 ```
