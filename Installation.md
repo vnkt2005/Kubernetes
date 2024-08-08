@@ -17,3 +17,9 @@
   CertUtil -hashfile kubectl.exe SHA256
   type kubectl.exe.sha256
 ```
+
+#Using powershell to automate the verification
+```sh
+```
+
+
