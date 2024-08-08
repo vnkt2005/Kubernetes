@@ -49,6 +49,7 @@ if ($oldPath.Split(';') -inotcontains 'E:\minikube'){
 ```
 
 #start your cluster
+
 #From a terminal with administrator access (but not logged in as root), run:
 ```sh
   minikube start
