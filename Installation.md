@@ -33,6 +33,13 @@
 
 #search google for minikube install
 #go to official website https://minikube.sigs.k8s.io › docs › start
+#to download minikube
+
+```sh
+  mkdir e:\minikube
+  cd e:\minikube
+```
+
 
 
 
