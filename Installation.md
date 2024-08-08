@@ -1,4 +1,4 @@
 # Installation
-#Cubectl installation
+#Cubectl installation, Google search for install kubectl
 ```sh
 ```
