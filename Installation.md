@@ -1,5 +1,5 @@
-# Installation
-#Cubectl installation, 
+# Kubectl Installation
+#Kubectl installation, 
 #Google search for install kubectl, 
 #Goto website address - https://kubernetes.io/docs/tasks/tools, 
 #click install kubectl on windows
@@ -28,4 +28,8 @@
   kubectl version --client
   kubectl version --client --output=yaml
 ```
+
+# Minikube Installation
+
+
 
