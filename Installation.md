@@ -1,7 +1,8 @@
 # Installation
-#Cubectl installation, Google search for install kubectl, 
-goto website address - https://kubernetes.io/docs/tasks/tools, 
-click install kubectl on windows
+#Cubectl installation, 
+#Google search for install kubectl, 
+#Goto website address - https://kubernetes.io/docs/tasks/tools, 
+#click install kubectl on windows
 
 #Download kubectl.exe binary file
 ```sh
