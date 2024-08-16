@@ -1,4 +1,4 @@
-# Kind Installation
+# Kind Installation On Windows
 ```sh
   choco install kind
 ```
