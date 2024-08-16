@@ -67,7 +67,7 @@ kind create cluster --image kindest/node:v1.31.0@sha256:53df588e04085fd41ae12de0
 Interactions with multi-node cluster
 ```sh
 kubectl cluster-info --context kind-cka-cluster2
-
+kubectl get nodes
 ```
 
 # Minikube Installation
