@@ -1,3 +1,8 @@
+# Kind Installation
+```sh
+  choco install kind
+```
+
 # Kubectl Installation
 #Kubectl installation, 
 #Google search for install kubectl, 
