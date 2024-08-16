@@ -42,6 +42,11 @@
   kubectl version --client --output=yaml
 ```
 
+# Interaction with kubernetes cluster
+```sh
+  kubectl get nodes
+```
+
 # Minikube Installation
 
 #search google for minikube install
