@@ -70,6 +70,15 @@ kubectl cluster-info --context kind-cka-cluster2
 kubectl get nodes
 ```
 
+To switch to first cluster1
+#to see the quick reference of all kubernetes commands
+#use kubectl cheat sheet from kubernetes docs
+#use kubernetes.io blogs
+```sh
+kubectl config get-contexts
+kubectl config use-context kind-cka-cluster1
+```
+
 # Minikube Installation
 
 #search google for minikube install
