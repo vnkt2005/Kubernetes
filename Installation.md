@@ -71,12 +71,18 @@ kubectl get nodes
 ```
 
 To switch to first cluster1
+```sh
 #to see the quick reference of all kubernetes commands
 #use kubectl cheat sheet from kubernetes docs
 #use kubernetes.io blogs
+https://kubernetes.io/docs/reference/kubectl/quick-reference/
+https://kubernetes.io/blog/
+```
+
 ```sh
 kubectl config get-contexts
 kubectl config use-context kind-cka-cluster1
+kubectl get nodes
 ```
 
 # Minikube Installation
