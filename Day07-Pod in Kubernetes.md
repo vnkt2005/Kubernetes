@@ -25,5 +25,6 @@ spec:
 ```sh
 kubectl explain pod
 kubectl create -f pod.yaml
+kubectl get pods
 kubectl delete pod nginx-pod
 ```
