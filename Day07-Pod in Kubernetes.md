@@ -4,13 +4,22 @@
   kubectl run nginx-pod --image=nginx:latest
   kubectl get pods
 ```
-#day7-yaml.yaml
+#pod.yaml
 ```sh
 # This is a sample pod yaml
 apiVersion:
-kind:
+kind: Pod
 metadata:
+  name: nginx-pod
+  labels:
+    env: demo
+    type: frontend
 spec:
+  containers:
+    - name: nginx-container
+      image: nginx
+      ports:
+      - containerPort: 80
 ```
 
 ```sh
