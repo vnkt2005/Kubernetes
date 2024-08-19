@@ -7,7 +7,7 @@
 #pod.yaml
 ```sh
 # This is a sample pod yaml
-apiVersion:
+apiVersion: v1
 kind: Pod
 metadata:
   name: nginx-pod
