@@ -6,9 +6,13 @@
 ```
 #day7-yaml.yaml
 ```sh
-# This is a comment
-employee:
-  name: venkatesh
-  age: 56
-  address: mysore
+# This is a sample pod yaml
+apiVersion:
+kind:
+metadata:
+spec:
+```
+
+```sh
+kubectl explain pod
 ```
