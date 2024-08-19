@@ -46,4 +46,5 @@ kubectl exec -it nginx-pod -- sh
 kubectl run nginx --image=nginx --dry-run=client
 kubectl run nginx --image=nginx --dry-run=client -o yaml
 kubectl run nginx --image=nginx --dry-run=client -o yaml > pod-new.yaml
+kubectl run nginx --image=nginx --dry-run=client -o json > pod-new.json
 ```
