@@ -30,3 +30,8 @@ kubectl delete pod nginx-pod
 kubectl apply -f pod.yaml
 kubectl describe pod nginx-pod
 ```
+
+#directly edit a pod in the cluster itself
+```sh
+kubectl edit pod nginx-pod
+```
