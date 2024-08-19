@@ -41,7 +41,7 @@ kubectl edit pod nginx-pod
 kubectl exec -it nginx-pod -- sh 
 ```
 
-#dry run to generate yaml files for pods
+#dry run to generate/create yaml files without manual typing
 ```sh
 kubectl run nginx --image=nginx --dry-run=client
 kubectl run nginx --image=nginx --dry-run=client -o yaml
