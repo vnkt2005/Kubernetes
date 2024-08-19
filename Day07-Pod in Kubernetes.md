@@ -27,4 +27,6 @@ kubectl explain pod
 kubectl create -f pod.yaml
 kubectl get pods
 kubectl delete pod nginx-pod
+kubectl apply -f pod.yaml
+kubectl describe pod nginx-pod
 ```
