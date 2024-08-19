@@ -35,3 +35,8 @@ kubectl describe pod nginx-pod
 ```sh
 kubectl edit pod nginx-pod
 ```
+
+#connect with the pod using exec/sh
+```sh
+kubectl exec -it nginx-pod -- sh 
+```
