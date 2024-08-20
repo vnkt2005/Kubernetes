@@ -25,4 +25,6 @@ kubectl get pods
 kubectl delete pod nginx-pod
 kubectl apply -f rc.yaml
 kubectl get pods
+kubectl get rc
+kubectl describe pod nginx-rc-bdf2d
 ```
