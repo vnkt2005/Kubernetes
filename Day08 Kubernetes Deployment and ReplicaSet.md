@@ -107,4 +107,5 @@ spec:
 kubectl delete rs/nginx-rs
 kubectl apply -f deploy.yaml
 kubectl get pods
+kubectl get deploy
 ```
