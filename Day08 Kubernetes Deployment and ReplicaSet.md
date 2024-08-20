@@ -108,4 +108,11 @@ kubectl delete rs/nginx-rs
 kubectl apply -f deploy.yaml
 kubectl get pods
 kubectl get deploy
+kubectl get all
+```
+
+#change the version
+```sh
+kubectl set image deploy/nginx-deploy \
+>ngnix=nginx:1.9.1
 ```
