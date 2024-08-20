@@ -64,3 +64,13 @@ kubectl delete rc/nginx-rc
 replicas: 5
 kubectl apply -f rs.yaml
 ```
+
+#live edit replicaset
+```sh
+kubectl edit rs/nginx-rs
+```
+
+#another way to edit number of replicas
+```sh
+kubectl scale --replicas=10 rs/nginx-rs
+```
