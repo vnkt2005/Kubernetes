@@ -29,6 +29,7 @@ kubectl get rc
 kubectl describe pod nginx-rc-bdf2d
 ```
 
+# Replication Set
 #rs.yaml
 ```sh
 apiVersion:  v1
