@@ -19,3 +19,10 @@ spec:
         name: nginx
   replicas: 3
 ```
+#create replicaset
+```sh
+kubectl get pods
+kubectl delete pod nginx-pod
+kubectl apply -f rc.yaml
+kubectl get pods
+```
