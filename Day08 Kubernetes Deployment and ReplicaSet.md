@@ -60,5 +60,7 @@ kubectl delete rc/nginx-rc
 ```
 
 #how to make number of replicas = 5
-#replicas: 5
-#kubectl apply -f rs.yaml
+```sh
+replicas: 5
+kubectl apply -f rs.yaml
+```
