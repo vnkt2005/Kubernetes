@@ -34,7 +34,7 @@ kubectl describe pod nginx-rc-bdf2d
 apiVersion:  v1
 kind:  ReplicaSet
 metadata:
-  name: nginx-rc
+  name: nginx-rs
   labels:
     env: demo
 spec:
@@ -48,4 +48,7 @@ spec:
       - image: nginx
         name: nginx
   replicas: 3
+  selector:
+    matchLabels:
+      env: demo
 ```
