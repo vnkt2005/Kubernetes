@@ -1,4 +1,4 @@
-# Kubernetes Deployment, Replication Controller And ReplicaSet
+# Replication Controller
 #rc.yaml
 ```sh
 apiVersion:  v1
@@ -29,7 +29,7 @@ kubectl get rc
 kubectl describe pod nginx-rc-bdf2d
 ```
 
-# Replication Set
+# ReplicaSet
 #rs.yaml
 ```sh
 apiVersion:  v1
