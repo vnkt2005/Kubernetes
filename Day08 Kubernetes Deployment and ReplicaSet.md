@@ -117,4 +117,6 @@ kubectl set image deploy/nginx-deploy ngnix=nginx:1.9.1
 kubectl describe deploy/nginx-deploy
 kubectl rollout history deploy/nginx-deploy
 kubectl rollout undo deploy/nginx-deploy
+kubectl create deploy deploy/nginx-new --image=nginx --dry-run=client
+kubectl create deploy deploy/nginx-new --image=nginx --dry-run=client -o yaml > deploy1.yaml
 ```
