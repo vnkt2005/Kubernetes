@@ -53,3 +53,9 @@ kubectl run nginx --image=nginx --dry-run=client -o json > pod-new.json
 ```sh
 kubectl get pods nginx-pod --show-labels
 ```
+
+#to know which node the pod is running - use extended view
+```sh
+kubectl get pods -o wide
+kubectl get nodes -o wide
+```
