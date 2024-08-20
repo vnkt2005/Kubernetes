@@ -74,3 +74,7 @@ kubectl edit rs/nginx-rs
 ```sh
 kubectl scale --replicas=10 rs/nginx-rs
 ```
+
+# Deployment
+
+#deployment
