@@ -114,4 +114,7 @@ kubectl get all
 #change the version
 ```sh
 kubectl set image deploy/nginx-deploy ngnix=nginx:1.9.1
+kubectl describe deploy/nginx-deploy
+kubectl rollout history deploy/nginx-deploy
+kubectl rollout undo deploy/nginx-deploy
 ```
