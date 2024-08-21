@@ -26,3 +26,8 @@ kubectl create -f nodeport.yaml
 kubectl get service
 kubectl get svc
 ```
+
+#get the ip address of the pod
+```sh
+kubectl get pods -o wide
+```
