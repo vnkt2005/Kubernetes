@@ -1,4 +1,4 @@
-# Nodeport
+# Nodeport Service
 
 #nodeport.yaml
 ```sh
@@ -18,6 +18,7 @@ spec:
     targetPort: 80
 ```
 
+#create nodeport service
 ```sh
 kubectl get pods --show-labels
 kubectl explain service
