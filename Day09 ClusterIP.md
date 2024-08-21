@@ -23,4 +23,6 @@ spec:
 kubectl get pods --show-labels
 kubectl explain service
 kubectl create -f nodeport.yaml
+kubectl get service
+kubectl get svc
 ```
