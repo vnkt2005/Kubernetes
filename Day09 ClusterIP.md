@@ -44,4 +44,5 @@ kind create cluster --config config.yaml --name cka-cluster2
 kubectl get nodes
 kubectl apply -f ../day08/deploy.yaml
 kubectl apply -f nodeport.yaml
+kubectl get svc
 ```
