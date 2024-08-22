@@ -47,4 +47,5 @@ kubectl apply -f nodeport.yaml
 kubectl get svc
 kubectl describe svc nodeport-svc
 curl http://localhost:30001
+kubectl get endpoints
 ```
