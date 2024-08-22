@@ -46,4 +46,5 @@ kubectl apply -f ../day08/deploy.yaml
 kubectl apply -f nodeport.yaml
 kubectl get svc
 kubectl describe svc nodeport-svc
+curl localhost:30001
 ```
