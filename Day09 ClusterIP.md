@@ -41,4 +41,5 @@ kind delete cluster --name cka-cluster2
 #create new kind cluster
 ```sh
 kind create cluster --config config.yaml --name cka-cluster2
+kubectl get nodes
 ```
