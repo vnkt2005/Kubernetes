@@ -42,4 +42,6 @@ kind delete cluster --name cka-cluster2
 ```sh
 kind create cluster --config config.yaml --name cka-cluster2
 kubectl get nodes
+kubectl apply -f ../day08/deploy.yaml
+kubectl apply -f nodeport.yaml
 ```
