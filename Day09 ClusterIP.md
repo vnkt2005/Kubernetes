@@ -31,3 +31,9 @@ kubectl get svc
 ```sh
 kubectl get pods -o wide
 ```
+
+#delete the existing cluster
+```sh
+kind get clusters
+kind delete cluster --name cka-cluster2
+```
