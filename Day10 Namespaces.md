@@ -61,3 +61,8 @@ kubectl exec -it nginx-demo-cccbdc67f-xvhzs -n=demo -- sh
 kubectl get pods -n=demo -o wide
 #curl 10.244.2.7
 ```
+
+#scale the pods
+```sh
+kubectl scale --replicas=3 deploy/nginx-demo -n=demo
+```
