@@ -12,3 +12,8 @@ kubectl get all -n kube-node-lease
 kubectl get all
 kubectl get all -n default
 ```
+
+#creating namespaces
+#ns.yaml
+```sh
+```
