@@ -21,3 +21,8 @@ kind: Namespace
 metadata:
   name: demo
 ```
+#creating namespace
+```sh
+kubectl apply -f ns.yaml
+kubectl get namespaces
+```
