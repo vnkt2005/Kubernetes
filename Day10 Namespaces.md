@@ -16,4 +16,8 @@ kubectl get all -n default
 # Creating namespaces
 #ns.yaml
 ```sh
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: demo
 ```
