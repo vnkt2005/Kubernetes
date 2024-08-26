@@ -37,3 +37,8 @@ kubectl create ns demo
 ```sh
 kubectl delete ns/demo
 ```
+
+#creating pod within demo namespace
+```sh
+kubectl create deploy nginx-demo --image=nginx -n demo
+```
