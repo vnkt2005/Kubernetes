@@ -13,7 +13,7 @@ kubectl get all
 kubectl get all -n default
 ```
 
-#creating namespaces
+# Creating namespaces
 #ns.yaml
 ```sh
 ```
