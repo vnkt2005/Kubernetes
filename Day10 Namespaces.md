@@ -43,3 +43,18 @@ kubectl delete ns/demo
 kubectl create deploy nginx-demo --image=nginx -n demo
 kubectl get deploy -n demo
 ```
+
+#default namespace
+```sh
+kubectl create deploy nginx-test --image=nginx
+kubectl get pods
+```
+
+#connect to other pods
+```sh
+kubectl get pods
+kubectl exec -it nginx-test-5b77bfd686-k4f45 -- sh
+
+kubectl get pods -n=demo
+kubectl exec -it nginx-demo-5b77bfd686-k4f45 -- sh
+```
