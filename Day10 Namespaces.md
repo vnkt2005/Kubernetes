@@ -28,7 +28,7 @@ kubectl get namespaces
 kubectl get ns
 ```
 
-#create namespace imparative way
+#create namespace imparative way without ns.yaml file
 ```sh
 kubectl create ns demo
 ```
