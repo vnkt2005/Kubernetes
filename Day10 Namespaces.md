@@ -25,4 +25,5 @@ metadata:
 ```sh
 kubectl apply -f ns.yaml
 kubectl get namespaces
+kubectl get ns
 ```
