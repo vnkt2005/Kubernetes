@@ -27,3 +27,13 @@ kubectl apply -f ns.yaml
 kubectl get namespaces
 kubectl get ns
 ```
+
+#create namespace imparative way
+```sh
+kubectl create ns demo
+```
+
+#delete namespace
+```sh
+kubectl delete ns/demo
+```
