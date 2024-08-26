@@ -58,4 +58,5 @@ kubectl exec -it nginx-test-5b77bfd686-k4f45 -- sh
 kubectl get pods -n=demo
 kubectl exec -it nginx-demo-5b77bfd686-k4f45 -- sh
 kubectl exec -it nginx-demo-cccbdc67f-xvhzs -n=demo -- sh
+#curl 10.244.2.7
 ```
