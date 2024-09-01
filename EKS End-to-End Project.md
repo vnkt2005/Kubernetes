@@ -10,7 +10,7 @@ If eksctl is not installed please goto <a href="https://github.com/vnkt2005/Kube
 </p>
 
 <p>
-  4. Configure AWS CLI.
+  4. Configure AWS CLI using following command. aws configure command will ask you to provide AWS access key ID, AWS secret access key, default region code and default output format(json).
 </p>
 
  ```sh
