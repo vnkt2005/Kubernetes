@@ -13,3 +13,7 @@
 </p>
 
 <h2>Install eksctl</h2>
+<p>
+  For more details on how to install eksctl visit official website 
+  <a href="https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html#eksctl-install-update">https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html#eksctl-install-update</a>
+</p>
