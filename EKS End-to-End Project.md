@@ -16,3 +16,7 @@ If eksctl is not installed please goto <a href="https://github.com/vnkt2005/Kube
  ```sh
  aws configure
  ```
+
+<p>
+  5. Create EKS Cluster using command eksctl.
+</p>
