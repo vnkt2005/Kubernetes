@@ -8,3 +8,10 @@ If eksctl is not installed please goto <a href="https://github.com/vnkt2005/Kube
 <p>
   3. To install AWS CLI on Windows, use AWS official website address <a href="https://docs.aws.amazon.com/cli/v1/userguide/install-windows.html">https://docs.aws.amazon.com/cli/v1/userguide/install-windows.html</a>
 </p>
+
+<p>
+  4. Configure AWS CLI.
+  ```sh
+  aws configure
+  ```
+</p>
