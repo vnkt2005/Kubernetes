@@ -1,4 +1,4 @@
-# Kubectl Installation
+# EKS Project Prerequisites
 <p>The following methods exist for installing kubectl on Windows:
 
 1. Install kubectl binary on Windows (via direct download or curl) <br>
