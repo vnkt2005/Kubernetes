@@ -1,0 +1,4 @@
+# EKS End-to-End Project
+#1. Ensure kubectl is installed on your laptop. 
+If kubectl is not installed please goto <a href="https://github.com/vnkt2005/Kubernetes/blob/main/Install%20Kubectl.md">Install Kubectl.md</a>.
+
