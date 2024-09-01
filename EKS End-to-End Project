@@ -1,1 +1,3 @@
 # EKS End-to-End Project
+#1. Ensure kubectl is installed on your laptop.
+Login to AWS console. Goto EKS service.
