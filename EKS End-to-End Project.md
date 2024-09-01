@@ -25,3 +25,12 @@ If eksctl is not installed please goto <a href="https://github.com/vnkt2005/Kube
 eksctl create cluster --name demo-cluster-1 --region ap-south-1 --fargate
 eksctl delete cluster --name demo-cluster-1 --region ap-south-1
 ```
+
+<p>
+  6. Configuring kubectl for eks.
+</p>
+
+```sh
+aws eks update-kubeconfig --name demo-cluster-1
+kubectl get nodes
+```
