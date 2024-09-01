@@ -22,5 +22,5 @@ If eksctl is not installed please goto <a href="https://github.com/vnkt2005/Kube
 </p>
 
 ```sh
-eksctl create cluster --name demo-cluster --region us-east-1 --fargate
+eksctl create cluster --name demo-cluster-1 --region ap-south-1 --fargate
 ```
