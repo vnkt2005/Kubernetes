@@ -20,3 +20,7 @@ If eksctl is not installed please goto <a href="https://github.com/vnkt2005/Kube
 <p>
   5. Create EKS Cluster using command eksctl.
 </p>
+
+```sh
+eksctl create cluster --name demo-cluster --region us-east-1 --fargate
+```
