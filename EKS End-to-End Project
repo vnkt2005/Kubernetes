@@ -1,3 +1,4 @@
 # EKS End-to-End Project
-#1. Ensure kubectl is installed on your laptop. If kubectl is not installed please goto [Install Kubectl](https://github.com/vnkt2005/Kubernetes/blob/main/Install%20Kubectl.md)
+#1. Ensure kubectl is installed on your laptop. 
+If kubectl is not installed please goto [Install Kubectl](https://github.com/vnkt2005/Kubernetes/blob/main/Install%20Kubectl.md)
 Login to AWS console. Goto EKS service.
