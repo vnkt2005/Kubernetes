@@ -23,4 +23,5 @@ If eksctl is not installed please goto <a href="https://github.com/vnkt2005/Kube
 
 ```sh
 eksctl create cluster --name demo-cluster-1 --region ap-south-1 --fargate
+eksctl delete cluster --name demo-cluster-1 --region ap-south-1
 ```
