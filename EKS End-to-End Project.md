@@ -11,7 +11,7 @@ If eksctl is not installed please goto <a href="https://github.com/vnkt2005/Kube
 
 <p>
   4. Configure AWS CLI.
-  ```sh
+</p>
+ ```sh
   aws configure
   ```
-</p>
