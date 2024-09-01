@@ -6,5 +6,5 @@ If kubectl is not installed please goto <a href="https://github.com/vnkt2005/Kub
 If eksctl is not installed please goto <a href="https://github.com/vnkt2005/Kubernetes/blob/main/Prerequisites.md">Prerequisites.md</a>.</p>
 
 <p>
-  3. Install AWS CLI.
+  3. Install AWS CLI. Use AWS official website. <a href="https://docs.aws.amazon.com/cli/v1/userguide/install-windows.html">https://docs.aws.amazon.com/cli/v1/userguide/install-windows.html</a>
 </p>
