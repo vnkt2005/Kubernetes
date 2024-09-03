@@ -31,6 +31,6 @@ eksctl delete cluster --name demo-cluster-1 --region ap-south-1
 </p>
 
 ```sh
-aws eks update-kubeconfig --name demo-cluster-1
+aws eks update-kubeconfig --name demo-cluster-1 --region ap-south-1
 kubectl get nodes
 ```
