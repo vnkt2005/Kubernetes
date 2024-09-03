@@ -38,7 +38,15 @@ kubectl get nodes
 # Deployment of application.
 
 <p>
-  7. Creating forgate profile for new namespace.
+  7. Creating fargate profile for new namespace.
 </p>
+
+```sh
+eksctl create fargateprofile \
+    --cluster demo-cluster-1 \
+    --region ap-south-1 \
+    --name alb-sample-app \
+    --namespace game-2048
+```
 
 
