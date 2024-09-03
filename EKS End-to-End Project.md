@@ -34,3 +34,13 @@ eksctl delete cluster --name demo-cluster-1 --region ap-south-1
 aws eks update-kubeconfig --name demo-cluster-1 --region ap-south-1
 kubectl get nodes
 ```
+
+<p>
+# Deployment of application.
+</p>
+
+<p>
+  7. Creating forgate profile for new namespace.
+</p>
+
+
